@@ -1,0 +1,57 @@
+express js is a framework of node js:
+
+step 1:install express js
+
+step 2:create own server using express js
+
+step 3:nodeman installation(package manager to reflect in the server resulting in browser response via text editor)
+
+npm install -g nodemon
+
+step 4: handling request and responses
+  
+  =>GET request
+  
+step 5:Routing in Express Js
+
+res.send()
+
+res.sendFile()
+
+step 6:calling HTML pages /any pages
+
+step 7:create simple calculator
+
+step 8:Handling POST  request.
+step 9:use of body perser
+
+npm install body-parser
+
+
+step 10:bonus->BMI challenge
+
+server  popular node js frameworks are built
+on express eg:next.js,feathers
+
+single page app,multi page app,hybrid web app.
+
+To handle HTTP POST request in express.js ,
+
+you need to install middleware module called body-perser.
+
+
+>body-parser extract the entire body portion of an incoming request of an incoming request stream and exposes
+
+ it on req.body
+ 
+ console.log(req.body)
+ 
+ gives the value in object form
+ 
+ 
+ property 1: req.body.v1
+ 
+ property 2: req.body.v2
+
+
+>the body-parser module parses the json,buffer,string and URL encoded data submitted using HTTP POST request  
